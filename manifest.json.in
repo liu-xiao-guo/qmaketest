@@ -1,0 +1,17 @@
+{
+    "name": "qmaketest.liu-xiao-guo",
+    "description": "description of qmaketest",
+    "architecture": "@CLICK_ARCH@",
+    "title": "qmaketest",
+    "hooks": {
+        "qmaketest": {
+            "apparmor": "qmaketest/qmaketest.apparmor",
+            "desktop":  "qmaketest/qmaketest.desktop"
+        }
+    },
+    "version": "0.1",
+    "maintainer": "XiaoGuo, Liu <xiaoguo.liu@canonical.com>",
+    "framework" : "ubuntu-sdk-15.04"
+}
+
+

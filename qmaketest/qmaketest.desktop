@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=qmaketest
+Exec=qmlscene $@ qmaketest/Main.qml
+Icon=qmaketest/qmaketest.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+
